@@ -1,0 +1,32 @@
+{
+  "name": "@nocom_bot/mod_telegram",
+  "version": "0.0.1",
+  "description": "[WIP] v1 Spec-compliant Telegram interface module for NOCOM_BOT",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOCOM-BOT/mod_telegram.git"
+  },
+  "keywords": [
+    "nocom",
+    "bot",
+    "chat"
+  ],
+  "author": "BadAimWeeb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NOCOM-BOT/mod_telegram/issues"
+  },
+  "homepage": "https://github.com/NOCOM-BOT/mod_telegram#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.7.16",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "telegraf": "^4.9.1"
+  }
+}
