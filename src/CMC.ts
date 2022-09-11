@@ -22,8 +22,8 @@ export default class CMComm extends EventEmitter {
                 process.send?.({
                     type: "handshake_success",
                     module: "interface",
-                    module_displayname: "Facebook Messenger (legacy) interface",
-                    module_namespace: "int_fbmsg_legacy"
+                    module_displayname: "Telegram Interface",
+                    module_namespace: "interface_telegram"
                 });
 
                 this._handleEvents();
