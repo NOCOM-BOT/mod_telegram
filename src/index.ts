@@ -48,7 +48,7 @@ cmc.on("api:login", async (call_from: string, data: {
     // Note that we don't use Telegram command (yet), so we'll listen for actual messages
     // and send it to command handler.
     bot.on("message", async (ctx) => {
-        logger.debug("telegram", JSON.parse(JSON.stringify(ctx)));
+        logger.debug("telegram", JSON.stringify(ctx));
     });
 
     logger.info("telegram", `Interface ${data.interfaceID} logged in.`);
