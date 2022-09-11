@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "telegraf": "^4.9.1"
-  }
+  },
+  "type": "module"
 }
