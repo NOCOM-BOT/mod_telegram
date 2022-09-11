@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "namespace": "interface_telegram",
-    "communicationProtocol": "node_worker",
+    "namespace": "int_telegram",
+    "communicationProtocol": "node_ipc",
     "autoRestart": true
 }

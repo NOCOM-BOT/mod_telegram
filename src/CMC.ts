@@ -23,7 +23,7 @@ export default class CMComm extends EventEmitter {
                     type: "handshake_success",
                     module: "interface",
                     module_displayname: "Telegram Interface",
-                    module_namespace: "interface_telegram"
+                    module_namespace: "int_telegram"
                 });
 
                 this._handleEvents();
