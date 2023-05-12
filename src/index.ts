@@ -204,9 +204,9 @@ cmc.on("api:login", async (call_from: string, data: {
                 formattedGuildID: `${ctx.chat.id}@Channel@Telegram`,
                 senderID: ctx.from.id.toString(),
                 formattedSenderID: `${ctx.from.id}@User@Telegram`,
+                isDM: ctx.chat.type === "private",
 
                 additionalInterfaceData: {
-                    isDM: ctx.chat.type === "private",
                     isReply,
                     replyMessageID
                 }
